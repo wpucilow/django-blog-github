@@ -4,7 +4,7 @@
 <h1>GitHub OAuth Login</h1>
 {% if user.is_authenticated %}
 <p>Welcome {{ user.username }} !!!</p>
-<meta http-equiv="Refresh" content="0; url=http://127.0.0.1:8000/blog/" />
+<meta http-equiv="Refresh" content="0; url=http://python230-ubuntu8000001.westus.cloudapp.azure.com/blog/" />
 {% else %}
  <a href="{% provider_login_url 'github' %}">Sign Up</a>
 {% endif %}
